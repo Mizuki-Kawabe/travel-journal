@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    margin:0;
+    padding:0;
+}
+
+
+/* Navbar */
+nav{
+    width:auto;
+    height: 5rem;
+    background-color: F55A5A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+}
+
+/* Cards */
+
+.card{
+    max-width: 950px;
+    margin: 10rem auto;
+    display: flex;
+}
+
+.card--text{
+    margin:auto auto auto 2rem;
+}
+
+.card--location{
+    display: flex;
+    align-items: center;
+}
+
+.card--maplogo{
+    width: 1rem;
+    margin-right: 0.5rem;
+}
+
+h1{
+    font-size: 1.5rem;
+    margin:0;
+    padding:0;
+}
+
+.nav--logo{
+    height:1.5rem;
+    margin-right: 0.5rem;
+}
+
+.card--img{
+    height:30rem;
+    width: 20rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card--country{
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-right: 1rem;
+    text-transform: uppercase;
+}
+
+.card--view-map{
+    color:grey;
+    text-decoration: underline;
+}
+
+.card--name{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card--date{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.card--discription{
+    color:2B283A;
+    line-height: 1.5rem;
+}
